@@ -1,1 +1,11 @@
-console.log("Portfolio berjalan!");
+function scrollToSkills(){
+
+  document
+  .getElementById("skills")
+  .scrollIntoView({
+    behavior:"smooth"
+  });
+
+}
+
+console.log("Portfolio aktif!");
